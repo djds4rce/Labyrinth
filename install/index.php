@@ -93,7 +93,7 @@ a {
 					`Group_ID` int(11) NOT NULL,
 					`SignUpDate` int(11) NOT NULL,
 					 `LastSignIn` int(11) NOT NULL,
-                                         'score` int(11) NOT NULL default '0',
+                                         'score` int(11) NOT NULL DEFAULT '0',
                                          `answer_time` int(11) NULL,
 					 PRIMARY KEY  (`User_ID`)
 					) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
